@@ -1,7 +1,14 @@
 # Sync your folder with FTP
 
-How to sync local folder with remote FTP.
-- lftp - https://lftp.yar.ru/
+Sync local folder or file with remote FTP.
+
+# lftp
+using lftp https://lftp.yar.ru/, download and see the INSTALL file for more info or just run:
+```shell
+$ ./configure && make && make install
+```
+
+## How to deploy
 
 ```shell
 $ ./deploy.sh
@@ -9,7 +16,9 @@ $ ./deploy.sh README.md
 ```
 
 
-## configuration
+## How to configurate
+edit deploy.sh file:
+
 
 ```
 #!/bin/bash    
