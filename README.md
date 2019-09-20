@@ -2,10 +2,15 @@
 
 Sync local folder or file with remote FTP.
 
-# lftp
-using lftp https://lftp.yar.ru/, download and see the INSTALL file for more info or just run:
+# lftp instalation
+## using lftp https://lftp.yar.ru/
+download and see the INSTALL file for more info or just run:
 ```shell
 $ ./configure && make && make install
+```
+## using brew
+```shell
+$ brew install lftp
 ```
 
 ## How to deploy
